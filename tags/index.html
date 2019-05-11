@@ -14,11 +14,11 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <title>
         
-          Beantech | 豆科技
+          Tags - Beantech | 豆科技
         
     </title>
 
-    <link rel="canonical" href="http://yoursite-url/404.html">
+    <link rel="canonical" href="http://yoursite-url/tags/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -69,7 +69,7 @@
 <style type="text/css">
     header.intro-header{
         
-            background-image: url('/img/404-bg.jpg')
+            background-image: url('/img/header_img/tag-bg.png')
             /*page*/
         
     }
@@ -88,9 +88,9 @@
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 
                     <div class="site-heading">
-                        <h1>Your Title</h1>
+                        <h1>Tags</h1>
                         <!--<hr class="small">-->
-                        <span class="subheading">你来到了没有知识的荒原 :(</span>
+                        <span class="subheading">Hey, this is Tags.</span>
                     </div>
                 
 
@@ -193,25 +193,79 @@
 
 
     <!-- Main Content -->
-    
-<!-- Page Header -->
-<header class="intro-header" style="background-image: url('/img/404-bg.jpg')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
-                <div class="site-heading">
-                    <h1>404</h1>
-                    <!--<hr class="small">-->
-                    <span class="subheading">你来到了没有知识的荒原 :(</span>
-                </div>
+    <!-- Main Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <!-- 标签云 -->
+            <div id='tag_cloud' class="tags">
+                
+                    <a href="#Hexo" title="Hexo" rel="1">Hexo</a>
+                
+                    <a href="#Blog" title="Blog" rel="1">Blog</a>
+                
             </div>
+
+            <!-- 标签列表 -->
+
+            
+            <div class="one-tag-list">
+                <span class="fa fa-tag listing-seperator" id="Hexo">
+                    <span class="tag-text">Hexo</span>
+                </span>
+                
+                  <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+                 <div class="post-preview">
+                     <a href="/2017/03/18/hexo-theme-beantech/">
+                        <h2 class="post-title">
+                            [Hexo] Theme BeanTech
+                        </h2>
+                        
+                            <h3 class="post-subtitle">
+                                This is hexo theme Demo.
+                            </h3>
+                        
+                    </a>
+                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+                </div>
+                <hr>
+                
+            </div>
+            
+            <div class="one-tag-list">
+                <span class="fa fa-tag listing-seperator" id="Blog">
+                    <span class="tag-text">Blog</span>
+                </span>
+                
+                  <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+                 <div class="post-preview">
+                     <a href="/2017/03/18/hexo-theme-beantech/">
+                        <h2 class="post-title">
+                            [Hexo] Theme BeanTech
+                        </h2>
+                        
+                            <h3 class="post-subtitle">
+                                This is hexo theme Demo.
+                            </h3>
+                        
+                    </a>
+                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+                </div>
+                <hr>
+                
+            </div>
+            
+
+
         </div>
     </div>
-</header>
-
-<script>
-    document.body.classList.add('page-fullscreen');
-</script>
+</div>
 
 
     <!-- Footer -->
